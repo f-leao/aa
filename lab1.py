@@ -8,6 +8,8 @@ def f(x):
 def tangent_line(x, x0):
     return 3*(x0**2)*(x - x0) + f(x0)
 
+# this is another great comment worth looking at!
+
 x = np.linspace(-10, 10, 100)
 y = f(x)
 
